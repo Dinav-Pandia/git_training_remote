@@ -16,7 +16,7 @@
 --[Delimiter] [nvarchar] (max) NULL,
 --[IsProvisioned] [varchar] (1));
 
----Branch to be merged with this change---
+---Branch to be merged with this change--
 
 set identity_insert [#tempTB_MASTER_SCHEMA_BKUP] on;
 
