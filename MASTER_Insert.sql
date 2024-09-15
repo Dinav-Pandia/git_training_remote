@@ -16,7 +16,7 @@
 --[Delimiter] [nvarchar] (max) NULL,
 --[IsProvisioned] [varchar] (1));
 
-
+--Updating remotely
 
 set identity_insert [#tempTB_MASTER_SCHEMA_BKUP] on;
 
