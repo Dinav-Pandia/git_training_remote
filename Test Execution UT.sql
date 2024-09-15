@@ -2,14 +2,13 @@ BEGIN TRAN
 DROP TABLE DATACATALOGUE.TEST_EXECUTION_CONFIG
 COMMIT TRAN
 
----Fetch changes---
+
 select RequestItemID, RequestID, SourceItemName, TargetItemName from [DATACATALOGUE].[VW_MAPPING] where RequestID = '202' AND RequestItemID = '693'
 SELECT REQUESTID,RequestItemID FROM [DATACATALOGUE].[TB_REQUEST_ITEM]
 WHERE ObjectName = 'VP_WAIVER_FILE_LOAD'
 AND SystemName = 'SHAREPOINT_OPTIMISERIGHT_EXCEL' and TargetZoneID=3
 
 
----Pull the changes--
 
 SELECT SourceMetadataInfo FROM [DATACATALOGUE].[TB_REQUEST_ITEM]
 WHERE ObjectName = 'VP_WAIVER_FILE_LOAD'
