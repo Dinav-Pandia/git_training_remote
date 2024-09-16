@@ -1,5 +1,5 @@
 ---Changes for checking fetch---
-
+---2nd change---
 
 BEGIN TRAN
 DROP TABLE DATACATALOGUE.TEST_EXECUTION_CONFIG
