@@ -9,7 +9,6 @@ WHERE ObjectName = 'VP_WAIVER_FILE_LOAD'
 AND SystemName = 'SHAREPOINT_OPTIMISERIGHT_EXCEL' and TargetZoneID=3
 
 
----Pull the changes--
 
 SELECT SourceMetadataInfo FROM [DATACATALOGUE].[TB_REQUEST_ITEM]
 WHERE ObjectName = 'VP_WAIVER_FILE_LOAD'
