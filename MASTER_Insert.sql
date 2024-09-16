@@ -17,6 +17,7 @@
 --[IsProvisioned] [varchar] (1));
 
 ----Changes from Vscode---
+----2nd Change from VScode---
 
 set identity_insert [#tempTB_MASTER_SCHEMA_BKUP] on;
 
