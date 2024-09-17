@@ -1,3 +1,5 @@
+
+--Dummy change---
 --create table [#tempTB_MASTER_SCHEMA_BKUP] (
 --[ID] [int] identity,
 --[Layer] [varchar] (255) NULL,
@@ -16,8 +18,6 @@
 --[Delimiter] [nvarchar] (max) NULL,
 --[IsProvisioned] [varchar] (1));
 
-----Changes from Vscode---
-----2nd Change from VScode---
 
 set identity_insert [#tempTB_MASTER_SCHEMA_BKUP] on;
 
